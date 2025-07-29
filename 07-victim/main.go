@@ -10,7 +10,7 @@ import (
 func main() {
     listener, err := net.Listen("tcp", ":4444")
     if err != nil {
-        fmt.Println("Error starting server:", err)
+        fmt.Println("Error starting server!:", err)
         return
     }
     defer listener.Close()
