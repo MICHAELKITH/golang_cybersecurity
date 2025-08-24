@@ -5,7 +5,7 @@ import (
     "fmt"
     "io"
     "os"
-    "path/filepath"
+    
 )
 
 func createTrojan(source, destination string) error {
